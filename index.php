@@ -1,3 +1,3 @@
 <?php
 
-	echo "Está funcionando";
+	echo "It's working!";
