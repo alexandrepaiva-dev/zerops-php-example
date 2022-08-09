@@ -31,16 +31,3 @@ phpnginx0:
     # *optional*: which files / folders
     # to cache for the next use
     cache: [vendor]
-
-  # ==== how to run your application ====
-  run:
-    # *optional* install dependencies that your
-    # runtime service requires (will be cached)
-    prepare:
-       - apt-get something
-       - curl otherthing
-
-    # *optional*: triggered before each start/restart
-    # of your application, to eg. clean cache
-     init:
-      - rm -rf ./cache
